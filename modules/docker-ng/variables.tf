@@ -15,13 +15,13 @@ variable "container_name" {
 
 variable "internal_port" {
 
-  
-  type= number
-  default=80
+
+  type    = number
+  default = 80
 }
 variable "external_port" {
 
-  type  = number
+  type    = number
   default = 8080
 
 }
